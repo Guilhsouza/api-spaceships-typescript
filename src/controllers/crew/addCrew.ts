@@ -1,7 +1,7 @@
 import { Request, Response } from 'express'
 import db from '../../connection/dbConnection'
 
-export default async function sendShipToMission(req: Request, res: Response) {
+export default async function addCrew(req: Request, res: Response) {
     const { id } = req.params
     const { name } = req.body
     try {
