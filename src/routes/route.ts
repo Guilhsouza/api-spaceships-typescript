@@ -1,6 +1,6 @@
 import { Router } from 'express'
 import registerShip from '../controllers/spaceship/registerShips'
-import sendShipToMission from '../controllers/spaceship/sendShipToMisson'
+import sendShipToMission from '../controllers/crew/addCrew'
 
 const routes = Router()
 
